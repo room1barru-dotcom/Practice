@@ -7,7 +7,7 @@ def main():
         print("Loop executed!")
         if num%x == 0:
             totalDivided +=1
-            print("Divided one time!")
+            print("Divisable!")
 
     if(totalDivided == 2):
         print(f"This is a prime number!")

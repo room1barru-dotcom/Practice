@@ -1,11 +1,15 @@
-numbersss = [1,2,3,4,5]
+def main():
+    numbersss = [1,2,3,4,5]
 
-squares = []
-cubes = []
+    squares = []
+    cubes = []
 
-for x in numbersss:
-    squares.append(x*x)
-    cubes.append(x*x*x)
+    for x in numbersss:
+        squares.append(x*x)
+        cubes.append(x*x*x)
 
 
-print(f"{squares}\n{cubes}\nDone!")
+    print(f"{squares}\n{cubes}\nDone!")
+
+if __name__ == "__main__":
+    main()

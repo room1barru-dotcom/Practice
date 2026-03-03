@@ -1,7 +1,7 @@
 import listMinMaxFinder
 
 def main():
-    states = {"USA":"TEXAS", "INDIA":"MAHARASHTRA", "JAPAN":"TEXAS"}
+    states = {"india":"delhi", "USA":"Texas", "JAPAN":"delhi"}
 
     frequency = {}
 
@@ -10,6 +10,7 @@ def main():
             frequency[states[x]] += 1
         else:
             frequency[states[x]] = 1
+
 
     print(frequency)
 

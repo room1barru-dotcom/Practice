@@ -1,1 +1,3 @@
-current
+
+    else:
+        print("Invalid!")
